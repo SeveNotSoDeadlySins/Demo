@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- h1.display-2{Stefan is the best}+(p.lead>lorem15)+section>p*3>lorem30 -->
+    <!-- This is emmet shorthand to create ta h1 with a class of display-2 (from BS). 
+    IN brakets we are creating a pararaph ith Lead styling of 15 words AND a section with 3 paragraphs.
+    WE put the pararaph in brakets so as not to put the section within the pain paragraph. -->
+    <!-- h1.display-2.text-danger{Stefan is the best}+(p.lead.text-primary>lorem15)+section>p*3>lorem30 -->
+
+    <div class="container-fluid bg-danger-subtle">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="/images/images.jfif" alt="lion" width="30" height="24">
+              </a>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="col-md-12 col-lg-12 col-xxl-12">
+          <h3>wow in a col</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quaerat ullam laboriosam. Quae maiores aspernatur deleniti id velit modi ad repellat, nihil nobis corrupti assumenda voluptate eveniet est, voluptas perspiciatis.</p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-2">
+                <div class="card">
+                  <img class="img-fluid" src="/images/brown-Guernsey-cow.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Adam</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.google.com/search?q=cows&oq=cows&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyFQgBEC4YQxiDARixAxjJAxiABBiKBTINCAIQABiSAxiABBiKBTIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQLhiABNIBBzYzNmowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary" target="_blank">See more cows</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card">
+                  <img class="img-fluid" src="/images/brown-Guernsey-cow.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Eduard</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.google.com/search?q=cows&oq=cows&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyFQgBEC4YQxiDARixAxjJAxiABBiKBTINCAIQABiSAxiABBiKBTIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQLhiABNIBBzYzNmowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary" target="_blank">See more cows</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card">
+                  <img class="img-fluid" src="/images/brown-Guernsey-cow.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jerermi</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.google.com/search?q=cows&oq=cows&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyFQgBEC4YQxiDARixAxjJAxiABBiKBTINCAIQABiSAxiABBiKBTIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQLhiABNIBBzYzNmowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary" target="_blank">See more cows</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card">
+                  <img class="img-fluid" src="/images/brown-Guernsey-cow.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Josh</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.google.com/search?q=cows&oq=cows&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyFQgBEC4YQxiDARixAxjJAxiABBiKBTINCAIQABiSAxiABBiKBTIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQLhiABNIBBzYzNmowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary" target="_blank">See more cows</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card">
+                  <img class="img-fluid" src="/images/brown-Guernsey-cow.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Keiron</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.google.com/search?q=cows&oq=cows&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyFQgBEC4YQxiDARixAxjJAxiABBiKBTINCAIQABiSAxiABBiKBTIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQLhiABNIBBzYzNmowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary" target="_blank">See more cows</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card">
+                  <img class="img-fluid" src="/images/brown-Guernsey-cow.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ryan</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.google.com/search?q=cows&oq=cows&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyFQgBEC4YQxiDARixAxjJAxiABBiKBTINCAIQABiSAxiABBiKBTIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQLhiABNIBBzYzNmowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="btn btn-primary" target="_blank">See more cows</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bg-danger-subtle">
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-xxl-6">
+              <h3>Lóin</h3>
+              <img class="img-fluid" src="/images/BGOPOP-FL_01.webp" alt="lion">
+    
+              <p>Consequatur animi nulla, assumenda ipsum soluta enim doloremque cupiditate voluptatibus, quas ratione at aliquid, voluptas dignissimos voluptate maiores excepturi iste ea hic nisi placeat iure. Doloribus praesentium aliquam iusto mollitia?</p>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xxl-6 ">
+              <h3>Lion</h3>
+              <img class="img-fluid" src="/images/images.jfif" alt="lion">
+              <p>Consequatur animi nulla, assumenda ipsum soluta enim doloremque cupiditate voluptatibus, quas ratione at aliquid, voluptas dignissimos voluptate maiores excepturi iste ea hic nisi placeat iure. Doloribus praesentium aliquam iusto mollitia?</p>
+            </div>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- On tables -->
+            <table class="table-primary">wow all the colours</table>
+            <table class="table-secondary">wow all the colours</table>
+            <table class="table-success">wow all the colours</table>
+            <table class="table-danger">wow all the colours</table>
+            <table class="table-warning">wow all the colours</table>
+            <table class="table-info">wow all the colours</table>
+            <table class="table-light">wow all the colours</table>
+            <table class="table-dark">wow all the colours</table>
+
+            <!-- On rows -->
+            <tr class="table-primary">wow all the colours</tr>
+            <tr class="table-secondary">wow all the colours</tr>
+            <tr class="table-success">wow all the colours</tr>
+            <tr class="table-danger">wow all the colours</tr>
+            <tr class="table-warning">wow all the colours</tr>
+            <tr class="table-info">wow all the colours</tr>
+            <tr class="table-light">wow all the colours</tr>
+            <tr class="table-dark">wow all the colours</tr>
+
+            <!-- On cells (`td` or `th`) -->
+            <tr>
+              <td class="table-primary">wow all the colours</td>
+              <td class="table-secondary">wow all the colours</td>
+              <td class="table-success">wow all the colours</td>
+              <td class="table-danger">wow all the colours</td>
+              <td class="table-warning">wow all the colours</td>
+              <td class="table-info">wow all the colours</td>
+              <td class="table-light">wow all the colours</td>
+              <td class="table-dark">wow all the colours</td>
+            </tr>
+          </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <table class="table caption-top">
+        <caption>List of users</caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col align-self-start">
+            One of three columns
+          </div>
+          <div class="col align-self-center">
+            One of three columns
+          </div>
+          <div class="col align-self-end">
+            One of three columns
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
